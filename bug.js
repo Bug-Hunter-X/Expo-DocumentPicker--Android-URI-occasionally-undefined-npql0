@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  The selected file URI is sometimes returned as `undefined` even when a file has been successfully selected by the user. This leads to unexpected crashes or incorrect behavior in applications that rely on accessing the selected file.
